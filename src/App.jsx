@@ -1,6 +1,6 @@
 import "./index.css";
 import Navbar from "./components/NavBar.jsx";
-import Hero from "./components/hero.jsx";
+import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Experience from "./components/Experience.jsx";
 import Technologies from "./components/Technologies.jsx";
