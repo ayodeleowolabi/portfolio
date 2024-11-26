@@ -12,11 +12,11 @@ const Hero = () => {
             </h1>
             <span
               className="bg-gradient-to-r from-red-600 via-slate-500
-              to-green-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              to-green-500 bg-clip-text text-4xl tracking-tight text-transparent pb-6"
             >
               Full Stack Developer
             </span>
-            <p className="my-2 max-w-xl py-6 font-light tracking-tighter lg:text-lg">
+            <p className="my-1 max-w-xl py-0 font-light tracking-tighter lg:text-xl">
               {HERO_CONTENT}
             </p>
           </div>
