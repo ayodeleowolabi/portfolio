@@ -8,7 +8,7 @@ import { SiDjango } from "react-icons/si";
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div className="">
       <h2 className="text-center text-2xl m-10 text-black">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -29,7 +29,7 @@ const Technologies = () => {
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiMongodb className="text-5xl text-slate-950" />
         </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+        <div className="rounded-2xl p-4">
           <SiDjango className="text-5xl text-slate-950" />
         </div>
       </div>

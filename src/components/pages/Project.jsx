@@ -7,7 +7,7 @@ const Project = () => {
   return (
     <div className="flex flex-col mt-7 pb-5 ">
         <h1 className="text-center text-3xl pb-5">Projects</h1>
-      <div className="flex gap-3 p-3">
+      <div className="flex gap-3 p-3 sm:flex-row">
         <img src={diary} alt="Diary" className="w-1/3" />
 
         <img src={how} alt="howUdoin" className="w-1/3" />

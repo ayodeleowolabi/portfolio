@@ -16,7 +16,7 @@ const Hero = () => {
             >
               Full Stack Developer
             </span>
-            <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
+            <p className="my-2 max-w-xl py-6 font-light tracking-tighter lg:text-lg">
               {HERO_CONTENT}
             </p>
           </div>
@@ -24,7 +24,7 @@ const Hero = () => {
         <div className=" w-full  flex justify-center lg:justify-evenly">
 
             <img src={profilePic} alt="Ayodele Owolabi" 
-            className="p-8 lg:w-11/12"/>
+            className="p-8 lg:w-12/12"/>
         </div>
       </div>
   
