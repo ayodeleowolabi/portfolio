@@ -10,7 +10,7 @@ const About = () => {
       </h1>
       <div className="flex flex-wrap">
         <div className="m-auto">
-          <div className="flex grow md:text-xl lg:text-2xl">{ABOUT_ME}
+          <div className="flex pb-5 grow md:text-xl lg:text-2xl">{ABOUT_ME}
           </div>
             <Technologies className="flex"/>
         </div>
