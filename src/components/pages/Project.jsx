@@ -1,12 +1,12 @@
-import diary from "../assets/diary.png";
-import how from "../assets/how.png";
-import take from "../assets/take.png";
+import diary from "../../assets/diary.png";
+import how from "../../assets/how.png";
+import take from "../../assets/take.png";
 
 const Project = () => {
 
   return (
-    <div className="flex flex-col mt-7 pb-5 border">
-        <h1 className="text-center text-3xl">Projects</h1>
+    <div className="flex flex-col mt-7 pb-5 ">
+        <h1 className="text-center text-3xl pb-5">Projects</h1>
       <div className="flex gap-3 p-3">
         <img src={diary} alt="Diary" className="w-1/3" />
 

@@ -1,13 +1,13 @@
-import { HERO_CONTENT } from "../../constants";
-import profilePic from "../assets/ayophoto.jpeg";
+import { HERO_CONTENT } from "../../../constants";
+import profilePic from "../../assets/ayophoto.jpeg";
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-      <div className="flex flex-wrap lg:flex-nowrap">
+    
+      <div className="flex flex-wrap lg:flex-nowrap my-0">
         <div className="w-full lg: w-1/2 m-7">
-          <div className="flex flex-col items-center lg:items-start">
-            <h1 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
+          <div className="flex flex-col items-center lg:justify-center lg:items-start">
+            <h1 className="pb-5 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl ">
               Ayo Owolabi
             </h1>
             <span
@@ -24,11 +24,10 @@ const Hero = () => {
         <div className=" w-full  flex justify-center lg:justify-evenly">
 
             <img src={profilePic} alt="Ayodele Owolabi" 
-            className="max-w-xs lg:max-w-xl p-8"/>
-          
+            className="p-8 lg:w-11/12"/>
         </div>
       </div>
-    </div>
+  
   );
 };
 

@@ -1,32 +1,13 @@
 import "./index.css";
 import Navbar from "./components/NavBar.jsx";
-import Hero from "./components/Hero.jsx";
-import About from "./components/About.jsx";
-import Experience from "./components/Experience.jsx";
+import Hero from "./components/pages/Hero.jsx";
+import About from "./components/pages/About.jsx";
+import Experience from "./components/pages/Experience.jsx";
 import Technologies from "./components/Technologies.jsx";
-import Project from "./components/Project.jsx"
+import Project from "./components/pages/Project.jsx";
+import { Route, Routes } from "react-router-dom";
 function App() {
-  let component 
-  switch (window.location.pathname) {
-    case "/hero":
-      component =  <Hero />
-      break
-  }
-  switch (window.location.pathname) {
-    case "/about":
-      component =  <About />
-      break
-  }
-  switch (window.location.pathname) {
-    case "/project":
-      component =  <Project />
-      break
-  }
-  switch (window.location.pathname) {
-    case "/experience":
-      component =  <Experience />
-      break
-  }
+
   return (
     <div className="overflow-x-hidden text-neutral-500 antialiased selection:bg-cyan-300 selection:text-cyan-900">
       <div className="fixed top-0 -z-10 h-full w-full">
@@ -34,13 +15,13 @@ function App() {
       </div>
      
         <Navbar />
-        <div className="container">{component}</div>
-        <Hero />
-        <Technologies/>
-        <Project/>
-        <About />
-
-        <Experience />
+        <Routes>
+          <Route path="/" element= {<Hero/>} />
+          <Route path="/about" element= {<About/>} />
+          <Route path="/projects" element= {<Project/>} />
+          <Route path="/experience" element= {<Experience/>} />
+        </Routes>
+        
 
    
     </div>
