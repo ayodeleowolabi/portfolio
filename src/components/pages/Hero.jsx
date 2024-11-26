@@ -16,7 +16,7 @@ const Hero = () => {
             >
               Full Stack Developer
             </span>
-            <p className="my-1 max-w-xl py-0 font-light tracking-tighter text-3xl">
+            <p className="my-1 max-w-xl py-0 font-light tracking-tighter text-2xl">
               {HERO_CONTENT}
             </p>
           </div>
