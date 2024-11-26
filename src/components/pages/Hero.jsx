@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     
       <div className="flex flex-wrap lg:flex-nowrap my-0">
-        <div className="w-full lg: w-1/2 m-7">
+        <div className="w-full lg:w-1/2 m-7">
           <div className="flex flex-col items-center lg:justify-center lg:items-start">
             <h1 className="pb-5 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl ">
               Ayo Owolabi

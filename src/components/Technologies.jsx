@@ -9,7 +9,7 @@ import { SiDjango } from "react-icons/si";
 const Technologies = () => {
   return (
     <div className="">
-      <h2 className="text-center text-2xl m-10 text-black">Technologies</h2>
+      <h2 className="text-center text-3xl m-10 text-black">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <RiReactjsLine className="text-5xl text-slate-950" />
